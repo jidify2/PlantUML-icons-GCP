@@ -70,3 +70,8 @@ participant "p_label\n<size:TECHN_FONT_SIZE>[p_techn]</size>" as p_alias << ($p_
 !definelong Participant(p_alias, p_label, p_techn, p_descr, p_color, p_sprite, p_stereo)
 participant "p_label\n<size:TECHN_FONT_SIZE>[p_techn]</size>\n\n p_descr" as p_alias << ($p_sprite, p_color) p_stereo>>
 !enddefinelong
+
+
+!definelong H1(e_alias, e_label)
+rectangle "<size:30><$e_label></size>" <<H1>> as e_alias
+!enddefinelong
