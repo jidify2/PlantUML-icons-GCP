@@ -71,7 +71,22 @@ participant "p_label\n<size:TECHN_FONT_SIZE>[p_techn]</size>" as p_alias << ($p_
 participant "p_label\n<size:TECHN_FONT_SIZE>[p_techn]</size>\n\n p_descr" as p_alias << ($p_sprite, p_color) p_stereo>>
 !enddefinelong
 
-
+' ########### JDA #######################
 !definelong H1(e_alias, e_label)
-rectangle "<size:30>==e_label</size>" <<H1>> as e_alias
+rectangle "<size:30>e_label</size>" <<H1>> as e_alias
 !enddefinelong
+
+!definelong H2(e_alias, e_label)
+rectangle "<size:20>e_label</size>" <<H2>> as e_alias
+!enddefinelong
+
+!definelong H3(e_alias, e_label)
+rectangle "<size:15>e_label</size>" <<H3>> as e_alias
+!enddefinelong
+
+
+skinparam rectangle<<H1>> {
+  roundCorner 20
+  backgroundColor #Ivory
+ }
+
