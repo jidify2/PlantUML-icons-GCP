@@ -73,5 +73,5 @@ participant "p_label\n<size:TECHN_FONT_SIZE>[p_techn]</size>\n\n p_descr" as p_a
 
 
 !definelong H1(e_alias, e_label)
-rectangle "<size:30><$e_label></size>" <<H1>> as e_alias
+rectangle "<size:30>==e_label</size>" <<H1>> as e_alias
 !enddefinelong
