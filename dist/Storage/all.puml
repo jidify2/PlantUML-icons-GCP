@@ -22,7 +22,7 @@ EntityColoring(Cloud_Storage)
 !define Cloud_StorageParticipant(p_alias, p_label, p_techn) Participant(p_alias, p_label, p_techn, #036ffc, Cloud_Storage, Cloud_Storage)
 !define Cloud_StorageParticipant(p_alias, p_label, p_techn, p_descr) Participant(p_alias, p_label, p_techn, p_descr, #036ffc, Cloud_Storage, Cloud_Storage)
 
-sprite $Persistent_Disk [64x64/16z] {
+sprite $Persistent_Disk [32x32/16z] {
 tPT9bkKW30H15gHy_mDtLtd5VoO0lThzs8U7JCRoPPZt1MuRlOMMH5lhYWrgXJ755Xdx_SJlg5-A0tI1NXL7YCCxGawlFqGr4Hv4cEWEE-JNvp_0IUS8ERny
 X2thDmWl4o67fmcJ277WUtdXYscWsFiNJmC_yc_gi2gEVEgmWNzzqAb3YvZxkaTYWWtTJVoZQN29t-zZV_TyALDiVCplwT3_vi_rq2-nzqC1F9a_VdNeRq7t
 XwSVf_uUUiouuCCd3L1-er-Xlv2NhhrFdw4-35_odVqmMFeq446-EY-zzm3wbPR-xX-0tuRbY_lZ6YkU6_p4TrY-oUTZX0NwFFzjiNtfpIjYs3vFgQdjUzhT
